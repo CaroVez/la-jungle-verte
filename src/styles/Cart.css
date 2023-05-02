@@ -1,4 +1,4 @@
-.lmj-cart {
+.ljv-cart {
 	color: white;
 	background-color: #31b572;
 	padding: 32px;
@@ -8,12 +8,12 @@
 	width: 200px;
 }
 
-.lmj-cart-add-button {
+.ljv-cart-add-button {
 	margin-left: 32px;
 	cursor: pointer;
 }
 
-.lmj-cart-toggle-button {
+.ljv-cart-toggle-button {
 	background: none;
 	outline: none;
 	border: none;
@@ -24,11 +24,11 @@
 	color: white;
 }
 
-.lmj-cart-closed {
+.ljv-cart-closed {
 	padding: 32px;
 	width: 200px;
 }
 
-.lmj-cart-closed > button {
+.ljv-cart-closed > button {
 	color: black;
 }

@@ -9,13 +9,13 @@ function Cart({ cart, updateCart }) {
   )
 
   useEffect(() => {
-    document.title = `LMJ: ${total}€ d'achats`
+    document.title = `ljv: ${total}€ d'achats`
   }, [total])
 
   return isOpen ? (
-    <div className='lmj-cart'>
+    <div className='ljv-cart'>
         <button
-            className='lmj-cart-toggle-button'
+            className='ljv-cart-toggle-button'
             onClick={() => setIsOpen(false)}
         >
             Fermer
@@ -36,9 +36,9 @@ function Cart({ cart, updateCart }) {
         )}          
     </div>
   ) : (
-      <div className='lmj-cart-closed'>
+      <div className='ljv-cart-closed'>
           <button
-              className='lmj-cart-toggle-button'
+              className='ljv-cart-toggle-button'
               onClick={() => setIsOpen(true)}
           >
               Ouvrir le Panier

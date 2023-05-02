@@ -17,13 +17,13 @@ function App() {
 	return (
 		<div>
 			<Banner>
-        <div className='lmj-title-logo'>
-          <img src={logo} alt='La maison jungle' className='lmj-logo' />
-				  <h1 className='lmj-title'>La maison jungle</h1>
+        <div className='ljv-title-logo'>
+          <img src={logo} alt='La jungle verte' className='ljv-logo' />
+				  <h1 className='ljv-title'>La jungle verte</h1>
         </div>				
         <Recommendation />
 			</Banner>
-			<div className='lmj-layout-inner'>
+			<div className='ljv-layout-inner'>
 				<Cart cart={cart} updateCart={updateCart} />
 				<ShoppingList cart={cart} updateCart={updateCart} />
 			</div>
