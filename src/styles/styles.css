@@ -1,0 +1,196 @@
+/* ################### */
+/* ###### index ###### */
+/* ################### */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* #################### */
+/* ###### Layout ###### */
+/* #################### */
+.ljv-layout-inner {
+	display: flex;
+	flex-direction: row;
+}
+
+/* #################### */
+/* ###### Banner ###### */
+/* #################### */
+.ljv-banner {
+	border-bottom: solid 3px black;
+	text-align: right;
+	padding: 32px;
+}
+
+.ljv-title-logo {
+	display: flex;
+	color: black;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+}
+
+.ljv-title {
+	padding-left: 32px;
+}
+
+.ljv-logo {
+	height: 45px;
+	width: 45px;
+}
+
+/* ########################## */
+/* ###### ShoppingList ###### */
+/* ########################## */
+.ljv-shopping-list {
+	width: 100%;
+}
+
+.ljv-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* ######################## */
+/* ###### Categories ###### */
+/* ######################## */
+.ljv-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ljv-categories-select {
+	margin-right: 15px;
+}
+
+/* ####################### */
+/* ###### PlantItem ###### */
+/* ####################### */
+.ljv-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.ljv-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.ljv-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+/* ################## */
+/* ###### Cart ###### */
+/* ################## */
+.ljv-cart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 200px;
+}
+
+.ljv-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.ljv-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+}
+
+.ljv-cart-closed {
+	padding: 32px;
+	width: 200px;
+}
+
+.ljv-cart-closed > button {
+	color: black;
+}
+
+/* #################### */
+/* ###### Footer ###### */
+/* #################### */
+.ljv-footer {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+.ljv-footer-elem {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/* ####################### */
+/* ###### LANDSCAPE ###### */
+/* ####################### */
+@media screen and (orientation: landscape) {
+	
+}
+
+
+/* #################### */
+/* ###### TABLET ###### */
+/* #################### */
+@media screen and (min-width: 576px) {
+
+}
+
+
+/* ##################### */
+/* ###### DESKTOP ###### */
+/* ##################### */
+@media screen and (min-width: 1080px) {
+
+}

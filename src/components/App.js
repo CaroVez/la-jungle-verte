@@ -5,7 +5,7 @@ import Recommendation from './Recommendation'
 import Cart from './Cart'
 import ShoppingList from './ShoppingList'
 import Footer from './Footer'
-import '../styles/Layout.css'
+//import '../styles/Layout.css'
 
 function App() {
 	const savedCart = localStorage.getItem('cart')

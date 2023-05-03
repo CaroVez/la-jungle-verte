@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# css
+/src/styles/Banner.css
+/src/styles/Cart.css
+/src/styles/Categories.css
+/src/styles/Footer.css
+/src/styles/index.css
+/src/styles/Layout.css
+/src/styles/PlantItem.css
+/src/styles/ShoppingList.css
